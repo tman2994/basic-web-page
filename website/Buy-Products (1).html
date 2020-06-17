@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Buy Products</title>
+<link rel="stylesheet" type="text/css" href="buy-products.css">
+</head>
+
+<body>
+	<div id = "wrapper">
+		<div id ="wrapper_inner">
+			<div id="headerContainer">
+				<img src="pagoda-tree.jpg" alt="Japaneese Pagoda Tree - kew Gardens">
+			</div>
+			
+			<div id="bodyContainer">
+			
+							
+				<h1> Welcome to The Shop!</h1>
+
+				<p> Here you can buy products and everything. Click on a picture in order to select it and press submit in order to buy it</p>
+				<form>
+                <fieldset id="produts">
+                	<legend>Products</legend>
+					<label  class = "left">
+                      <input type="checkbox" name="productToBuy" id="soap"  onclick="soapShow()" value="soap"/>
+                      <img src="soap.jpg" alt="soap">
+                      
+                    </label>
+                    <label class = "right">
+                      <input type="checkbox" name="productToBuy" id = "wine" onclick="wineShow()" value ="wine" />
+                      <img src="wine.jpg" alt="wine"> 
+                    </label>
+                    <label class = "left">
+                      <input type="checkbox" name="productToBuy"  id = "honey" onclick="honeyShow()" value ="honey"/>
+                      <img src="honey.jpg" alt = "honey">
+                    </label>
+					<label class = "right">
+                      <input type="checkbox" name="productToBuy"  id = "bag" onclick="bagShow()" value ="bag" />
+                      <img src="bag.jpg" alt="bag">
+                    </label>
+               	</fieldset>
+                <fieldset class="left" id = "leftSetHeight">
+                	<legend>Your Shopping Cart</legend>
+                    <div id="soapAmount" style="display:none">
+                    	<label class="cart">Amount of soap:</label>
+                        <input type="text" id="soapAmountText"  onblur="calc(form);">
+                        <br>
+                        <br>
+                    </div>
+                    <div id="wineAmount" style="display:none">
+                    	<label class="cart">Amount of wine:</label>
+                        <input type="text" id="wineAmountText" onblur="calc(form);">
+                        <br><br>
+                    </div>
+                    <div id="honeyAmount" style="display:none">
+                    	<label class="cart">Amount of honey:</label>
+                        <input type="text" id="honeyAmountText" onblur="calc(form);">
+                        <br><br>
+                    </div>
+                    <div id="bagAmount" style="display:none">
+                    	<label class="cart">Amount of bags:</label>
+                        <input type="text" id="bagAmountText" onblur="calc(form);">
+                        <br><br>
+                    </div>
+
+                    
+                    
+                </fieldset>
+					<fieldset class="right">
+						<legend>Personal Details</legend>
+                        
+						
+						<label class="personal-details" for ="name">Name:</label>
+						<input type="text" name ="name" id="name">
+						<br> <br>
+						<label class="personal-details" for ="surname">Surname:</label>
+						<input type="text" name ="surname" id="surname">
+						<br> <br>
+						<label class="personal-details" for ="address">Address:</label>
+						<input type="text" name ="address" id="address">
+						<br> <br>
+						 <label class="personal-details" for ="Email">Email:</label>
+						<input type="text" name ="Email" id="Email">
+						<br> <br>
+						<label class="personal-details"  for ="number">Mobile number:</label>
+						<input type="text" name ="number" id="number">    
+              
+					</fieldset>
+                    <div class = "clear"></div>
+                    <fieldset> 
+                    	 Sum: <span id="sum" class="sum"></span>£
+                         
+         			
+                    <input type="submit" onClick="onSubmit(form);" value="submit" id="submit">
+                    </fieldset>
+				</form>
+			</div>
+			<footer id="footer">
+
+		</footer>	
+		</div>
+	</div>
+	<footer id="footer">
+		<div id="footerContent">
+			<span id="footerText"> This page was created by <a href="https:CHANGETHIS.com" id="footerName">Antanas Bruzga</a></span>
+		</div>
+	</footer>	
+		
+	
+
+<script src="buy-products.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="new 1.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<script>
+function myFunction() {
+	alert("Hello! Thank you for doing are survey we really appreciate your feedback. please Enjoy are site");
+}
+</script> 
+<body>
+<div class="clear">
+</div>
+<div class="body">
+	<div class="container">
+		<div id="logo">
+			<img src="title2.png" alt="Mountain View" width="600" height="300" style="margin-left:650px";>
+		</div>
+		<div class="menuBox">
+			<ul id="menu">
+				<li id="li"><a class="active" href="">Home</a></li>
+				<li id="li"><a href="music.html">Music</a></li>
+				<li id="li"><a href="NHM/html">National History Museum</a></li>
+				<li id="li"><a href="k-gardens.html">Kew Gardens</a></li>
+				<li id="li"><a href="InteractiveQuizStartMenu.html">Interactive Quiz</a></li>
+				<li id="li"><a href="RollOver.html">Student Details</a></li>
+				<li id="li"><a href="buy-products.html">Buy Products</a></li>			
+			</ul>
+		</div>
+		<div id="mainBody">
+			<div id="header">
+				<form action="">			
+					<div id="comments">
+					<input type="Name"  placeholder="Name" size="40" style="color: #ed2d23"
+									onclick= "this.value = this.value == 'Name' ? this.value = '' : this.value = this.value"; 
+									onblur= "this.value = this.value == '' ? this.value = 'Name' : this.value = this.value">
+					<br>
+					<input type="Email Address"  placeholder="Email address" size="40" style="color: #ed2d23"
+									onclick= "this.value = this.value == 'Email address' ? this.value = '' : this.value = this.value"; 
+									onblur= "this.value = this.value == '' ? this.value = 'Email address' : this.value = this.value">
+					<br>
+					<textarea rows="5" cols="70" name="comment" form="comments"> Enter your comments about the site here. </textarea>
+					</div>
+					<div id="ratings">
+					<input type="radio" name="rating" value="1">1 Poor<br>
+					<input type="radio" name="rating" value="2">2 Average<br>
+					<input type="radio" name="rating" value="3">3 Good<br>
+					<input type="radio" name="rating" value="4">4 Very Good<br>
+					<input type="radio" name="rating" value="5">5 Excellent
+					</div>
+					<div id="submit">
+					<input id="js" type="submit" class="button" value="Rate" onclick="myFunction()">
+					</div>
+				</form>
+			</div>
+		</div>
+			<div id="footer">
+			<img src="header_banner6.jpg" width="100%" height="250" id="footerBg" style="";>
+				<form action="">
+					<input type="submit" class="button" value="The person who created this page is Tristan Brown" id="textinside">
+				</form>
+			</div> 		
+	</div>
+</div>
+</body>
+</html>

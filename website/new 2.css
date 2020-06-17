@@ -1,0 +1,247 @@
+/*--Generic--*/
+
+.body {
+	background:linear-gradient(-120deg,#000080,#0A2299,#183BF0,#798EF6,#DDE3FD, #FE8176,#FE2712,#A70F01);
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 16px;
+	line-height: 1.5;
+	
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*--Body--*/
+
+#container {
+	background:#fcfcfc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 30px auto;
+
+}
+
+#mainBody {
+	border-radius: 5px;
+	padding: 0px; 
+	width: 90%;
+    height: auto;
+	box-shadow: 0 0 200px #888888;
+	margin: 30px auto;	
+}
+
+/*--menu--*/
+
+.menuBox {
+	width: 758px;
+	font-size: 11px;
+	margin-top: 0px;
+    background-color: transparent;
+    color: #aaaaaa;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+
+}
+
+
+#menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#li {
+    float: left;
+	border-right:1px solid #bbb;
+}
+
+#li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+	
+}
+
+/**/
+#header { 
+		background-color: opacity: 0.0;
+		height: 300px;
+		margin-top: 10px;	
+		text-align: center;
+		
+}
+
+#brixton{
+	background-color: opacity: 0.0;
+	height: 300px;
+	margin-top: 10px;
+	text-align: center;
+}
+#club{
+	background-color: opacity: 0.0;
+	height: 300px;
+	margin-top: 10px;
+	text-align: center;
+}
+#festival{
+	background-color: opacity: 0.0;
+	height: 300px;
+	margin-top: 10px;
+	text-align: center;
+}
+/*text*/
+#textbox{
+	margin-left:10px;
+	width: 800px;
+	background-color: white;
+	position: absolute;
+	left: 291px;
+	top: 150px;
+	border: 2px solid black;
+	border-radius: 8px;
+	
+}
+
+#textbox1{
+	margin-left:10px;
+	width: 800px;
+	background-color: white;
+	position: absolute;
+	left: 285px;
+	top:770px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+#textbox2{
+	margin-left:10px;
+	width: 800px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	right:300px;
+	top: 450px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+#textbox3{
+	margin-left:10px;
+	width: 800px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 1080px;
+	right:300px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+/*maps*/
+
+#map{
+	top: 100px;
+	position: absolute;
+	left: 1200px;
+}
+
+#map1{
+		top: 405px;
+	position: absolute;
+	left: 300px;
+	
+}
+
+#green{
+	background-color: green;
+	width: 100%;
+	position: relative;
+	border-bottom: 10px;
+	width: 800px;
+	float: left;
+	left: 10px;
+	border: 2px solid black;
+}
+
+#purple{
+	background-color: green;
+	width: 100%;
+	position: relative;
+	border-bottom: 10px;
+	width: 800px;
+	float: right;
+	right: 5px;
+	border: 2px solid black;
+}
+/*tops*/
+
+
+/*--Header & Footer--*/
+
+	
+#footer {
+	width: 0px;
+	font-size: 12px;
+	border-top: 1px solid #d9d9d9;
+	background-color: #fcfcfc;
+	color: #aaaaaa;
+
+}
+
+/*--ButttonSesign--*/
+
+.button {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 12px 30px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+  background-color: #b02b2c;
+  text-transform: uppercase;
+  background-image: linear-gradient(top, rgba(255,255,255,1),
+                                         rgba(255,255,255,0)),
+                    url(data:image/png;base64,iVBORw0KGg[...]QmCC); 
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+              0 2px 2px -1px rgba(0, 0, 0, .5),
+              0 1px 0 rgba(255, 255, 255, .3) inset;
+}
+
+.button {
+  background-color: #b02b2c;
+  color: #555;
+}
+
+.button {
+  background: #e9e9e9;
+  text-shadow: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
